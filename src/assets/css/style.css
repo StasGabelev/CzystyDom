@@ -278,9 +278,20 @@ a {
 }
 
 .hero-media {
+  position: relative;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 24px 48px rgba(15, 92, 86, 0.22);
+}
+
+.hero-media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(155deg, var(--color-primary-dark) 0%, var(--color-primary) 55%, var(--color-accent) 130%);
+  mix-blend-mode: color;
+  opacity: 0.75;
+  pointer-events: none;
 }
 
 .hero-media img {
@@ -288,7 +299,8 @@ a {
   height: 100%;
   display: block;
   object-fit: cover;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 8 / 5;
+  filter: grayscale(0.3) contrast(1.05);
 }
 
 @media (max-width: 959px) {
