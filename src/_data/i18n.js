@@ -22,6 +22,7 @@ export default {
       ctaPrimary: "Zamów bezpłatną wycenę",
       ctaSecondary: "Napisz na WhatsApp",
       note: "Bezpłatna wycena w mniej niż 2 minuty — bez zobowiązań.",
+      imageAlt: "Panorama Warszawy",
     },
     stats: [
       { value: "<24h", label: "czas reakcji na zapytanie" },
@@ -158,6 +159,7 @@ export default {
       ctaPrimary: "Замовити безкоштовну оцінку",
       ctaSecondary: "Написати у WhatsApp",
       note: "Безкоштовна оцінка вартості менш ніж за 2 хвилини — без зобов'язань.",
+      imageAlt: "Панорама Варшави",
     },
     stats: [
       { value: "<24h", label: "час реакції на запит" },
@@ -294,6 +296,7 @@ export default {
       ctaPrimary: "Get a free quote",
       ctaSecondary: "Message us on WhatsApp",
       note: "Free quote in under 2 minutes — no obligation.",
+      imageAlt: "Warsaw skyline",
     },
     stats: [
       { value: "<24h", label: "response time to inquiries" },
