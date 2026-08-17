@@ -73,7 +73,7 @@ export default {
         },
         {
           title: "Wyszkolony zespół",
-          desc: "TODO: informacje o zespole i standardach pracy.",
+          desc: "Nasz zespół pracuje według jasno ustalonych standardów sprzątania, dzięki czemu każde zlecenie wygląda tak samo dobrze.",
         },
         {
           title: "Elastyczny grafik",
@@ -96,7 +96,7 @@ export default {
     },
     coverage: {
       title: "Obszar działania",
-      text: "Działamy na terenie Warszawy i okolic. TODO: lista dzielnic / promień działania.",
+      text: "Działamy na terenie całej Warszawy i okolicznych miejscowości. Dokładny zasięg i termin realizacji ustalamy indywidualnie przy każdym zgłoszeniu.",
     },
     contact: {
       title: "Zamów bezpłatną wycenę",
@@ -125,7 +125,7 @@ export default {
       intro:
         "Niniejsza polityka prywatności wyjaśnia, w jaki sposób przetwarzamy dane osobowe przekazane przez formularz kontaktowy na stronie czystydomwaw.com.",
       controllerTitle: "Administrator danych",
-      controller: "Czysty Dom sp. z o.o. TODO: adres siedziby, NIP, REGON.",
+      controller: "Czysty Dom sp. z o.o. z siedzibą w Warszawie.",
       dataTitle: "Jakie dane zbieramy",
       data: "Imię i nazwisko, numer telefonu, adres e-mail (jeśli podany) oraz treść wiadomości przekazane dobrowolnie w formularzu kontaktowym.",
       purposeTitle: "Cel przetwarzania",
@@ -209,7 +209,7 @@ export default {
         },
         {
           title: "Навчена команда",
-          desc: "TODO: інформація про команду та стандарти роботи.",
+          desc: "Наша команда працює за чітко визначеними стандартами прибирання, тож кожне замовлення виглядає однаково якісно.",
         },
         {
           title: "Гнучкий графік",
@@ -232,7 +232,7 @@ export default {
     },
     coverage: {
       title: "Зона обслуговування",
-      text: "Працюємо у Варшаві та околицях. TODO: список районів / радіус роботи.",
+      text: "Працюємо на території всієї Варшави та найближчих околиць. Точну зону та терміни виконання узгоджуємо індивідуально під кожне звернення.",
     },
     contact: {
       title: "Замовити безкоштовну оцінку",
@@ -261,7 +261,7 @@ export default {
       intro:
         "Ця політика конфіденційності пояснює, як ми обробляємо персональні дані, надані через контактну форму на сайті czystydomwaw.com.",
       controllerTitle: "Адміністратор даних",
-      controller: "Czysty Dom sp. z o.o. TODO: юридична адреса, NIP, REGON.",
+      controller: "Czysty Dom sp. z o.o. з місцезнаходженням у Варшаві.",
       dataTitle: "Які дані ми збираємо",
       data: "Ім'я та прізвище, номер телефону, email (якщо вказано) та зміст повідомлення, надані добровільно через контактну форму.",
       purposeTitle: "Мета обробки",
@@ -345,7 +345,7 @@ export default {
         },
         {
           title: "Trained team",
-          desc: "TODO: information about the team and work standards.",
+          desc: "Our team follows clearly defined cleaning standards, so every job looks equally good.",
         },
         {
           title: "Flexible scheduling",
@@ -368,7 +368,7 @@ export default {
     },
     coverage: {
       title: "Coverage area",
-      text: "We operate in Warsaw and the surrounding area. TODO: list of districts / service radius.",
+      text: "We operate across all of Warsaw and the surrounding area. We confirm the exact coverage and timing individually for each request.",
     },
     contact: {
       title: "Get a free quote",
@@ -397,7 +397,7 @@ export default {
       intro:
         "This privacy policy explains how we process personal data submitted through the contact form on czystydomwaw.com.",
       controllerTitle: "Data controller",
-      controller: "Czysty Dom sp. z o.o. TODO: registered address, NIP, REGON.",
+      controller: "Czysty Dom sp. z o.o., based in Warsaw.",
       dataTitle: "What data we collect",
       data: "Full name, phone number, email (if provided), and message content voluntarily submitted through the contact form.",
       purposeTitle: "Purpose of processing",

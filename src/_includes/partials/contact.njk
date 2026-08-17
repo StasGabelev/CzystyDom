@@ -36,7 +36,10 @@
       <input type="text" name="company_website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
       <input type="hidden" name="lang" value="{{ lang }}">
       <button type="submit" class="btn btn-primary">{{ t.contact.form.submit }}</button>
-      <p class="form-status" data-form-status hidden></p>
+      <p class="form-status" data-form-status hidden>
+        <span class="form-status-icon" data-form-status-icon aria-hidden="true"></span>
+        <span data-form-status-text></span>
+      </p>
     </form>
   </div>
 </section>

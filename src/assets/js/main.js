@@ -50,8 +50,10 @@
 
   function showStatus(message, isError) {
     if (!status) return;
-    status.textContent = message;
+    status.querySelector("[data-form-status-text]").textContent = message;
+    status.querySelector("[data-form-status-icon]").textContent = isError ? "!" : "✓";
+    status.dataset.state = isError ? "error" : "success";
     status.hidden = false;
-    status.style.color = isError ? "#b3261e" : "#0f5c56";
+    status.scrollIntoView({ behavior: "smooth", block: "center" });
   }
 })();
