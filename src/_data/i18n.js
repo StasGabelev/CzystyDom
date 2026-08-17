@@ -124,15 +124,40 @@ export default {
     privacyPage: {
       title: "Polityka prywatności",
       intro:
-        "Niniejsza polityka prywatności wyjaśnia, w jaki sposób przetwarzamy dane osobowe przekazane przez formularz kontaktowy na stronie czystydomwaw.com.",
+        "Niniejsza polityka prywatności wyjaśnia, w jaki sposób Czysty Dom sp. z o.o. przetwarza dane osobowe osób korzystających z formularza kontaktowego na stronie czystydomwaw.com, zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 (RODO).",
       controllerTitle: "Administrator danych",
-      controller: "Czysty Dom sp. z o.o. z siedzibą w Warszawie.",
-      dataTitle: "Jakie dane zbieramy",
-      data: "Imię i nazwisko, numer telefonu, adres e-mail (jeśli podany) oraz treść wiadomości przekazane dobrowolnie w formularzu kontaktowym.",
-      purposeTitle: "Cel przetwarzania",
-      purpose: "Dane są przetwarzane wyłącznie w celu odpowiedzi na zapytanie i przygotowania wyceny usługi.",
+      controller:
+        "Administratorem danych osobowych jest Czysty Dom sp. z o.o. z siedzibą w Warszawie. Pełne dane rejestrowe (adres siedziby, NIP, REGON) udostępniamy na żądanie pod adresem e-mail podanym w sekcji kontaktowej.",
+      dataTitle: "Jakie dane przetwarzamy",
+      data: "W związku z przesłaniem formularza kontaktowego przetwarzamy: imię i nazwisko, numer telefonu, adres e-mail (jeśli został podany) oraz treść wiadomości. Podanie danych jest dobrowolne, ale niezbędne do udzielenia odpowiedzi na zapytanie.",
+      purposeTitle: "Cel i podstawa prawna przetwarzania",
+      purpose:
+        "Dane przetwarzamy w celu odpowiedzi na zapytanie i przygotowania wyceny usługi, na podstawie art. 6 ust. 1 lit. b) RODO (czynności podejmowane na żądanie osoby, której dane dotyczą, przed zawarciem umowy) oraz art. 6 ust. 1 lit. f) RODO (prawnie uzasadniony interes administratora polegający na obsłudze zapytań klientów).",
+      recipientsTitle: "Odbiorcy danych",
+      recipients:
+        "Dane mogą być powierzane podmiotom świadczącym na naszą rzecz usługi hostingu strony i poczty elektronicznej, wyłącznie w zakresie niezbędnym do obsługi zapytania.",
+      transferTitle: "Przekazywanie danych poza EOG",
+      transfer:
+        "Strona korzysta z infrastruktury hostingowej dostawcy Vercel Inc. (USA), co może wiązać się z przekazaniem danych poza Europejski Obszar Gospodarczy. W takim przypadku stosowane są odpowiednie zabezpieczenia przewidziane przez RODO, w tym standardowe klauzule umowne.",
+      retentionTitle: "Okres przechowywania danych",
+      retention:
+        "Dane przechowujemy przez okres niezbędny do obsługi zapytania, nie dłużej jednak niż 12 miesięcy od ostatniego kontaktu, chyba że dłuższy okres przechowywania wynika z przepisów prawa.",
+      rightsTitle: "Twoje prawa",
+      rightsIntro: "W związku z przetwarzaniem danych osobowych przysługuje Ci prawo do:",
+      rights: [
+        "dostępu do swoich danych oraz otrzymania ich kopii",
+        "sprostowania (poprawienia) danych",
+        "usunięcia danych",
+        "ograniczenia przetwarzania",
+        "wniesienia sprzeciwu wobec przetwarzania",
+        "przenoszenia danych",
+        "wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych (UODO)",
+      ],
+      cookiesTitle: "Pliki cookies",
+      cookies:
+        "Strona nie wykorzystuje obecnie plików cookies do celów analitycznych ani marketingowych. W razie wdrożenia takich narzędzi w przyszłości niniejsza polityka zostanie odpowiednio zaktualizowana.",
       contactTitle: "Kontakt w sprawie danych",
-      contact: "W sprawach dotyczących ochrony danych osobowych prosimy o kontakt na adres e-mail podany na stronie.",
+      contact: "W sprawach dotyczących ochrony danych osobowych prosimy o kontakt na adres e-mail:",
     },
   },
 
@@ -261,15 +286,40 @@ export default {
     privacyPage: {
       title: "Політика конфіденційності",
       intro:
-        "Ця політика конфіденційності пояснює, як ми обробляємо персональні дані, надані через контактну форму на сайті czystydomwaw.com.",
+        "Ця політика конфіденційності пояснює, як Czysty Dom sp. z o.o. обробляє персональні дані осіб, які користуються контактною формою на сайті czystydomwaw.com, відповідно до Регламенту (ЄС) 2016/679 (RODO/GDPR).",
       controllerTitle: "Адміністратор даних",
-      controller: "Czysty Dom sp. z o.o. з місцезнаходженням у Варшаві.",
-      dataTitle: "Які дані ми збираємо",
-      data: "Ім'я та прізвище, номер телефону, email (якщо вказано) та зміст повідомлення, надані добровільно через контактну форму.",
-      purposeTitle: "Мета обробки",
-      purpose: "Дані обробляються виключно з метою відповіді на запит та підготовки оцінки вартості послуги.",
+      controller:
+        "Адміністратором персональних даних є Czysty Dom sp. z o.o. з місцезнаходженням у Варшаві. Повні реєстраційні дані (юридична адреса, NIP, REGON) надаються на запит за email-адресою, вказаною в розділі контактів.",
+      dataTitle: "Які дані ми обробляємо",
+      data: "У зв'язку з надсиланням контактної форми ми обробляємо: ім'я та прізвище, номер телефону, email (якщо вказано) та зміст повідомлення. Надання даних є добровільним, але необхідним для відповіді на запит.",
+      purposeTitle: "Мета та правова підстава обробки",
+      purpose:
+        "Дані обробляються з метою відповіді на запит та підготовки оцінки вартості послуги, на підставі ст. 6(1)(b) RODO (дії на вимогу суб'єкта даних перед укладенням договору) та ст. 6(1)(f) RODO (законний інтерес адміністратора, що полягає в обробці запитів клієнтів).",
+      recipientsTitle: "Отримувачі даних",
+      recipients:
+        "Дані можуть передаватися постачальникам послуг хостингу сайту та електронної пошти, виключно в обсязі, необхідному для обробки запиту.",
+      transferTitle: "Передача даних за межі ЄЕЗ",
+      transfer:
+        "Сайт використовує хостингову інфраструктуру постачальника Vercel Inc. (США), що може передбачати передачу даних за межі Європейської економічної зони. У такому разі застосовуються відповідні гарантії, передбачені RODO, зокрема стандартні договірні застереження.",
+      retentionTitle: "Строк зберігання даних",
+      retention:
+        "Дані зберігаються протягом строку, необхідного для обробки запиту, але не довше 12 місяців з моменту останнього контакту, якщо інше не випливає з вимог законодавства.",
+      rightsTitle: "Ваші права",
+      rightsIntro: "У зв'язку з обробкою персональних даних ви маєте право на:",
+      rights: [
+        "доступ до своїх даних та отримання їх копії",
+        "виправлення (уточнення) даних",
+        "видалення даних",
+        "обмеження обробки",
+        "заперечення проти обробки",
+        "перенесення даних",
+        "подання скарги до Голови Управління захисту персональних даних Польщі (UODO)",
+      ],
+      cookiesTitle: "Файли cookie",
+      cookies:
+        "Наразі сайт не використовує файли cookie для аналітичних чи маркетингових цілей. У разі впровадження таких інструментів у майбутньому цю політику буде відповідно оновлено.",
       contactTitle: "Контакт щодо даних",
-      contact: "З питань захисту персональних даних, будь ласка, звертайтесь на email, вказаний на сайті.",
+      contact: "З питань захисту персональних даних, будь ласка, звертайтесь на email:",
     },
   },
 
@@ -398,15 +448,40 @@ export default {
     privacyPage: {
       title: "Privacy Policy",
       intro:
-        "This privacy policy explains how we process personal data submitted through the contact form on czystydomwaw.com.",
+        "This privacy policy explains how Czysty Dom sp. z o.o. processes the personal data of people who use the contact form on czystydomwaw.com, in accordance with Regulation (EU) 2016/679 (GDPR).",
       controllerTitle: "Data controller",
-      controller: "Czysty Dom sp. z o.o., based in Warsaw.",
-      dataTitle: "What data we collect",
-      data: "Full name, phone number, email (if provided), and message content voluntarily submitted through the contact form.",
-      purposeTitle: "Purpose of processing",
-      purpose: "Data is processed solely to respond to the inquiry and prepare a service quote.",
+      controller:
+        "The data controller is Czysty Dom sp. z o.o., based in Warsaw. Full registration details (registered address, NIP, REGON) are available on request via the email address listed in the contact section.",
+      dataTitle: "What data we process",
+      data: "When you submit the contact form, we process: your full name, phone number, email address (if provided), and message content. Providing this data is voluntary but necessary for us to respond to your inquiry.",
+      purposeTitle: "Purpose and legal basis for processing",
+      purpose:
+        "We process this data to respond to your inquiry and prepare a service quote, based on Article 6(1)(b) GDPR (steps taken at your request prior to entering into a contract) and Article 6(1)(f) GDPR (our legitimate interest in handling customer inquiries).",
+      recipientsTitle: "Recipients of data",
+      recipients:
+        "Data may be shared with providers of website hosting and email services acting on our behalf, only to the extent necessary to handle your inquiry.",
+      transferTitle: "International data transfers",
+      transfer:
+        "The site is hosted on infrastructure provided by Vercel Inc. (USA), which may involve transferring data outside the European Economic Area. Where this occurs, appropriate safeguards required by the GDPR are applied, including standard contractual clauses.",
+      retentionTitle: "Data retention period",
+      retention:
+        "We retain data for as long as necessary to handle your inquiry, and no longer than 12 months from the last contact, unless a longer retention period is required by law.",
+      rightsTitle: "Your rights",
+      rightsIntro: "In connection with the processing of your personal data, you have the right to:",
+      rights: [
+        "access your data and receive a copy of it",
+        "rectify (correct) your data",
+        "have your data erased",
+        "restrict processing",
+        "object to processing",
+        "data portability",
+        "lodge a complaint with the Polish data protection authority (UODO)",
+      ],
+      cookiesTitle: "Cookies",
+      cookies:
+        "The site does not currently use cookies for analytics or marketing purposes. If such tools are introduced in the future, this policy will be updated accordingly.",
       contactTitle: "Contact regarding your data",
-      contact: "For questions about personal data protection, please contact the email address listed on the site.",
+      contact: "For questions about personal data protection, please contact us at:",
     },
   },
 };

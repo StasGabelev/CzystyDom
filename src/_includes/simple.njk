@@ -22,8 +22,23 @@
       <p>{{ t.privacyPage.data }}</p>
       <h2>{{ t.privacyPage.purposeTitle }}</h2>
       <p>{{ t.privacyPage.purpose }}</p>
+      <h2>{{ t.privacyPage.recipientsTitle }}</h2>
+      <p>{{ t.privacyPage.recipients }}</p>
+      <h2>{{ t.privacyPage.transferTitle }}</h2>
+      <p>{{ t.privacyPage.transfer }}</p>
+      <h2>{{ t.privacyPage.retentionTitle }}</h2>
+      <p>{{ t.privacyPage.retention }}</p>
+      <h2>{{ t.privacyPage.rightsTitle }}</h2>
+      <p>{{ t.privacyPage.rightsIntro }}</p>
+      <ul>
+        {%- for item in t.privacyPage.rights %}
+        <li>{{ item }}</li>
+        {%- endfor %}
+      </ul>
+      <h2>{{ t.privacyPage.cookiesTitle }}</h2>
+      <p>{{ t.privacyPage.cookies }}</p>
       <h2>{{ t.privacyPage.contactTitle }}</h2>
-      <p>{{ t.privacyPage.contact }}</p>
+      <p>{{ t.privacyPage.contact }} {{ site.contact.email }}</p>
     </section>
   </main>
   {% include "partials/footer.njk" %}
