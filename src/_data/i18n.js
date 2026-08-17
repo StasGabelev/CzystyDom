@@ -123,7 +123,7 @@ export default {
     privacyPage: {
       title: "Polityka prywatności",
       intro:
-        "Niniejsza polityka prywatności wyjaśnia, w jaki sposób przetwarzamy dane osobowe przekazane przez formularz kontaktowy na stronie czystydomwaw.pl.",
+        "Niniejsza polityka prywatności wyjaśnia, w jaki sposób przetwarzamy dane osobowe przekazane przez formularz kontaktowy na stronie czystydomwaw.com.",
       controllerTitle: "Administrator danych",
       controller: "Czysty Dom sp. z o.o. TODO: adres siedziby, NIP, REGON.",
       dataTitle: "Jakie dane zbieramy",
@@ -259,7 +259,7 @@ export default {
     privacyPage: {
       title: "Політика конфіденційності",
       intro:
-        "Ця політика конфіденційності пояснює, як ми обробляємо персональні дані, надані через контактну форму на сайті czystydomwaw.pl.",
+        "Ця політика конфіденційності пояснює, як ми обробляємо персональні дані, надані через контактну форму на сайті czystydomwaw.com.",
       controllerTitle: "Адміністратор даних",
       controller: "Czysty Dom sp. z o.o. TODO: юридична адреса, NIP, REGON.",
       dataTitle: "Які дані ми збираємо",
@@ -395,7 +395,7 @@ export default {
     privacyPage: {
       title: "Privacy Policy",
       intro:
-        "This privacy policy explains how we process personal data submitted through the contact form on czystydomwaw.pl.",
+        "This privacy policy explains how we process personal data submitted through the contact form on czystydomwaw.com.",
       controllerTitle: "Data controller",
       controller: "Czysty Dom sp. z o.o. TODO: registered address, NIP, REGON.",
       dataTitle: "What data we collect",
