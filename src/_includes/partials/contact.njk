@@ -1,0 +1,42 @@
+<section id="contact" class="contact">
+  <div class="container contact-inner">
+    <div class="contact-info">
+      <h2>{{ t.contact.title }}</h2>
+      <p>{{ t.contact.subtitle }}</p>
+      <ul class="contact-list">
+        <li><a href="{{ site.contact.phoneHref }}">{{ t.contact.phoneLabel }}: {{ site.contact.phoneDisplay }}</a></li>
+        <li><a href="{{ site.contact.whatsappHref }}" target="_blank" rel="noopener">{{ t.contact.whatsapp }}</a></li>
+        <li><a href="mailto:{{ site.contact.email }}">{{ t.contact.emailLabel }}: {{ site.contact.email }}</a></li>
+        <li class="contact-hours">{{ t.contact.hoursLabel }}: {{ t.contact.hours }}</li>
+      </ul>
+    </div>
+
+    <form class="contact-form" action="/api/contact" method="post" data-contact-form
+      data-success="{{ t.contact.form.success }}" data-error="{{ t.contact.form.error }}">
+      <label>
+        {{ t.contact.form.name }}
+        <input type="text" name="name" required>
+      </label>
+      <label>
+        {{ t.contact.form.phone }}
+        <input type="tel" name="phone" required>
+      </label>
+      <label>
+        {{ t.contact.form.service }}
+        <select name="service">
+          {%- for item in t.services.items %}
+          <option>{{ item.title }}</option>
+          {%- endfor %}
+        </select>
+      </label>
+      <label>
+        {{ t.contact.form.message }}
+        <textarea name="message" rows="4"></textarea>
+      </label>
+      <input type="text" name="company_website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="lang" value="{{ lang }}">
+      <button type="submit" class="btn btn-primary">{{ t.contact.form.submit }}</button>
+      <p class="form-status" data-form-status hidden></p>
+    </form>
+  </div>
+</section>

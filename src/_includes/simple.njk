@@ -1,0 +1,31 @@
+{%- set t = i18n[lang] -%}
+<!doctype html>
+<html lang="{{ t.htmlLang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ t.privacyPage.title }} – {{ site.companyName }}</title>
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://{{ site.domain }}{{ page.url }}">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  {% include "partials/header.njk" %}
+  <main>
+    <section class="legal container">
+      <h1>{{ t.privacyPage.title }}</h1>
+      <p>{{ t.privacyPage.intro }}</p>
+      <h2>{{ t.privacyPage.controllerTitle }}</h2>
+      <p>{{ t.privacyPage.controller }}</p>
+      <h2>{{ t.privacyPage.dataTitle }}</h2>
+      <p>{{ t.privacyPage.data }}</p>
+      <h2>{{ t.privacyPage.purposeTitle }}</h2>
+      <p>{{ t.privacyPage.purpose }}</p>
+      <h2>{{ t.privacyPage.contactTitle }}</h2>
+      <p>{{ t.privacyPage.contact }}</p>
+    </section>
+  </main>
+  {% include "partials/footer.njk" %}
+</body>
+</html>

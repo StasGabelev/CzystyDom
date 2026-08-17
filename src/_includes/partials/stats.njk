@@ -1,0 +1,10 @@
+<section class="stats">
+  <div class="container stats-inner">
+    {%- for stat in t.stats %}
+    <div class="stat">
+      <span class="stat-value">{{ stat.value }}</span>
+      <span class="stat-label">{{ stat.label }}</span>
+    </div>
+    {%- endfor %}
+  </div>
+</section>

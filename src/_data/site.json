@@ -1,0 +1,23 @@
+{
+  "companyName": "Czysty Dom",
+  "legalName": "Czysty Dom sp. z o.o.",
+  "domain": "czystydomwaw.pl",
+  "languages": ["pl", "ua", "en"],
+  "defaultLang": "pl",
+  "alternates": {
+    "pl": "/",
+    "ua": "/ua/",
+    "en": "/en/"
+  },
+  "langLabels": {
+    "pl": "PL",
+    "ua": "UA",
+    "en": "EN"
+  },
+  "contact": {
+    "phoneDisplay": "+48 511 226 106",
+    "phoneHref": "tel:+48511226106",
+    "whatsappHref": "https://wa.me/48511226106",
+    "email": "kontakt@czystydomwaw.pl"
+  }
+}

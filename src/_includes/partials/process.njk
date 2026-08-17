@@ -1,0 +1,16 @@
+<section id="process" class="process">
+  <div class="container">
+    <h2>{{ t.process.title }}</h2>
+    <ol class="steps">
+      {%- for step in t.process.steps %}
+      <li class="step">
+        <span class="step-number">{{ loop.index }}</span>
+        <div>
+          <h3>{{ step.title }}</h3>
+          <p>{{ step.desc }}</p>
+        </div>
+      </li>
+      {%- endfor %}
+    </ol>
+  </div>
+</section>

@@ -1,0 +1,54 @@
+{%- set t = i18n[lang] -%}
+<!doctype html>
+<html lang="{{ t.htmlLang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ t.meta.title }}</title>
+  <meta name="description" content="{{ t.meta.description }}">
+
+  <link rel="canonical" href="https://{{ site.domain }}{{ site.alternates[lang] }}">
+  {%- for l, path in site.alternates %}
+  <link rel="alternate" hreflang="{{ i18n[l].htmlLang }}" href="https://{{ site.domain }}{{ path }}">
+  {%- endfor %}
+  <link rel="alternate" hreflang="x-default" href="https://{{ site.domain }}{{ site.alternates[site.defaultLang] }}">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.companyName }}">
+  <meta property="og:title" content="{{ t.meta.title }}">
+  <meta property="og:description" content="{{ t.meta.description }}">
+  <meta property="og:url" content="https://{{ site.domain }}{{ site.alternates[lang] }}">
+  <meta property="og:locale" content="{{ t.htmlLang }}">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "{{ site.legalName }}",
+    "url": "https://{{ site.domain }}{{ site.alternates[lang] }}",
+    "telephone": "{{ site.contact.phoneDisplay }}",
+    "email": "{{ site.contact.email }}",
+    "areaServed": "Warszawa"
+  }
+  </script>
+</head>
+<body>
+  {% include "partials/header.njk" %}
+  <main>
+    {% include "partials/hero.njk" %}
+    {% include "partials/stats.njk" %}
+    {% include "partials/services.njk" %}
+    {% include "partials/why-us.njk" %}
+    {% include "partials/process.njk" %}
+    {% include "partials/coverage.njk" %}
+    {% include "partials/contact.njk" %}
+  </main>
+  {% include "partials/footer.njk" %}
+  <a class="whatsapp-float" href="{{ site.contact.whatsappHref }}" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

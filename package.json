@@ -1,0 +1,21 @@
+{
+  "name": "czystydomwaw.pl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  },
+  "dependencies": {
+    "nodemailer": "^9.0.5"
+  }
+}

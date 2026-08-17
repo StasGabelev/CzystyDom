@@ -1,0 +1,13 @@
+<section id="why-us" class="why-us">
+  <div class="container">
+    <h2>{{ t.whyUs.title }}</h2>
+    <div class="card-grid">
+      {%- for item in t.whyUs.items %}
+      <article class="card card-plain">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.desc }}</p>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
