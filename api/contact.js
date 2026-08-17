@@ -38,7 +38,7 @@ export default async function handler(req, res) {
       from: SMTP_USER,
       to: CONTACT_TO,
       replyTo: SMTP_USER,
-      subject: "Nowe zapytanie ze strony czystydomwaw.pl",
+      subject: "Nowe zapytanie ze strony czystydomwaw.com",
       text: `Imię i nazwisko: ${name}\nTelefon: ${phone}\nUsługa: ${service || "-"}\nWiadomość: ${message || "-"}\nJęzyk strony: ${lang || "pl"}\n`,
     });
 
