@@ -1,17 +1,13 @@
 <section class="hero">
-  <div class="container hero-grid">
-    <div class="hero-inner">
-      <p class="eyebrow">{{ t.hero.eyebrow }}</p>
-      <h1>{{ t.hero.title }}</h1>
-      <p class="hero-subtitle">{{ t.hero.subtitle }}</p>
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="#contact">{{ t.hero.ctaPrimary }}</a>
-        <a class="btn btn-ghost" href="{{ site.contact.whatsappHref }}" target="_blank" rel="noopener">{{ t.hero.ctaSecondary }}</a>
-      </div>
-      <p class="hero-note">{{ t.hero.note }}</p>
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <p class="eyebrow">{{ t.hero.eyebrow }}</p>
+    <h1>{{ t.hero.title }}</h1>
+    <p class="hero-subtitle">{{ t.hero.subtitle }}</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#contact">{{ t.hero.ctaPrimary }}</a>
+      <a class="btn btn-ghost" href="{{ site.contact.whatsappHref }}" target="_blank" rel="noopener">{{ t.hero.ctaSecondary }}</a>
     </div>
-    <div class="hero-media">
-      <img src="/assets/img/photos/warsaw-skyline.jpg" alt="{{ t.hero.imageAlt }}" width="1600" height="961" loading="eager">
-    </div>
+    <p class="hero-note">{{ t.hero.note }}</p>
   </div>
 </section>
