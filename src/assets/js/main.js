@@ -1,4 +1,37 @@
 (function () {
+  var slides = document.querySelectorAll(".hero-slide");
+  var dots = document.querySelectorAll("[data-hero-dots] .hero-dot");
+  if (slides.length > 1) {
+    var current = 0;
+    var timer;
+
+    function goTo(index) {
+      slides[current].classList.remove("is-active");
+      dots[current] && dots[current].classList.remove("is-active");
+      current = index;
+      slides[current].classList.add("is-active");
+      dots[current] && dots[current].classList.add("is-active");
+    }
+
+    function next() {
+      goTo((current + 1) % slides.length);
+    }
+
+    function restart() {
+      clearInterval(timer);
+      timer = setInterval(next, 5000);
+    }
+
+    dots.forEach(function (dot, i) {
+      dot.addEventListener("click", function () {
+        goTo(i);
+        restart();
+      });
+    });
+
+    restart();
+  }
+
   var toggle = document.querySelector("[data-nav-toggle]");
   var nav = document.querySelector("[data-main-nav]");
   if (toggle && nav) {

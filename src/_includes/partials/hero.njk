@@ -1,5 +1,13 @@
 <section class="hero">
-  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-slider" aria-hidden="true">
+    <div class="hero-slide is-active" style="background-image:url('/assets/img/photos/warsaw-skyline.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('/assets/img/photos/services/office.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('/assets/img/photos/services/medical.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('/assets/img/photos/services/apartments.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('/assets/img/photos/services/warehouse.jpg')"></div>
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-darken"></div>
   <div class="container hero-inner">
     <p class="eyebrow">{{ t.hero.eyebrow }}</p>
     <h1>{{ t.hero.title }}</h1>
@@ -9,5 +17,12 @@
       <a class="btn btn-ghost" href="{{ site.contact.whatsappHref }}" target="_blank" rel="noopener">{{ t.hero.ctaSecondary }}</a>
     </div>
     <p class="hero-note">{{ t.hero.note }}</p>
+    <div class="hero-dots" data-hero-dots>
+      <button type="button" class="hero-dot is-active" data-slide="0" aria-label="1"></button>
+      <button type="button" class="hero-dot" data-slide="1" aria-label="2"></button>
+      <button type="button" class="hero-dot" data-slide="2" aria-label="3"></button>
+      <button type="button" class="hero-dot" data-slide="3" aria-label="4"></button>
+      <button type="button" class="hero-dot" data-slide="4" aria-label="5"></button>
+    </div>
   </div>
 </section>

@@ -230,28 +230,73 @@ a {
   padding: 120px 0 96px;
 }
 
-.hero-bg {
+.hero-slider {
   position: absolute;
   inset: 0;
   z-index: 0;
-  background-image: linear-gradient(
-      100deg,
-      rgba(10, 63, 59, 0.92) 0%,
-      rgba(15, 92, 86, 0.45) 55%,
-      rgba(15, 92, 86, 0.25) 100%
-    ),
-    linear-gradient(155deg, rgba(58, 95, 91, 0.8) 0%, rgba(77, 126, 121, 0.8) 55%, rgba(205, 179, 126, 0.8) 130%),
-    url("/assets/img/photos/warsaw-skyline.jpg");
-  background-size: cover, cover, cover;
-  background-position: center, center, center 40%;
+}
+
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center 40%;
   background-repeat: no-repeat;
-  background-blend-mode: normal, color, normal;
+  opacity: 0;
+  transition: opacity 1.4s ease;
+}
+
+.hero-slide.is-active {
+  opacity: 1;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(155deg, rgba(58, 95, 91, 0.8) 0%, rgba(77, 126, 121, 0.8) 55%, rgba(205, 179, 126, 0.8) 130%);
+  mix-blend-mode: color;
+  pointer-events: none;
+}
+
+.hero-darken {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(100deg, rgba(10, 63, 59, 0.92) 0%, rgba(15, 92, 86, 0.45) 55%, rgba(15, 92, 86, 0.25) 100%);
+  pointer-events: none;
 }
 
 .hero-inner {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   max-width: 700px;
+}
+
+.hero-dots {
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.hero-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.hero-dot.is-active {
+  background: var(--color-accent);
+  transform: scale(1.2);
+}
+
+.hero-dot:hover {
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .eyebrow {
@@ -365,7 +410,6 @@ section {
 .card-photo-media {
   position: relative;
   aspect-ratio: 4 / 3;
-  overflow: hidden;
 }
 
 .card-photo-media img {
