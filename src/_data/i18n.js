@@ -35,31 +35,37 @@ export default {
       items: [
         {
           icon: "home",
+          image: "apartments.jpg",
           title: "Mieszkania i domy",
           desc: "Kompleksowe sprzątanie mieszkań, domów i kottedży — regularne lub jednorazowe.",
         },
         {
           icon: "office",
+          image: "office.jpg",
           title: "Biura i firmy",
           desc: "Utrzymanie czystości w przestrzeniach biurowych i firmowych każdej wielkości.",
         },
         {
           icon: "warehouse",
+          image: "warehouse.jpg",
           title: "Magazyny i hale",
           desc: "Sprzątanie dużych powierzchni magazynowych i przemysłowych.",
         },
         {
           icon: "medical",
+          image: "medical.jpg",
           title: "Placówki medyczne",
           desc: "Sprzątanie zgodne z podwyższonymi standardami higieny.",
         },
         {
           icon: "shop",
+          image: "shop.jpg",
           title: "Sklepy i obiekty handlowe",
           desc: "Utrzymanie czystości w sklepach i punktach handlowo-usługowych.",
         },
         {
           icon: "street",
+          image: "street.jpg",
           title: "Ulice i tereny zewnętrzne",
           desc: "Sprzątanie chodników, parkingów i terenów wokół budynków.",
         },
@@ -197,31 +203,37 @@ export default {
       items: [
         {
           icon: "home",
+          image: "apartments.jpg",
           title: "Квартири і будинки",
           desc: "Комплексне прибирання квартир, будинків і котеджів — регулярне або разове.",
         },
         {
           icon: "office",
+          image: "office.jpg",
           title: "Офіси і компанії",
           desc: "Підтримка чистоти в офісних і корпоративних приміщеннях будь-якого розміру.",
         },
         {
           icon: "warehouse",
+          image: "warehouse.jpg",
           title: "Склади і виробничі приміщення",
           desc: "Прибирання великих складських і промислових площ.",
         },
         {
           icon: "medical",
+          image: "medical.jpg",
           title: "Медичні заклади",
           desc: "Прибирання відповідно до підвищених санітарних стандартів.",
         },
         {
           icon: "shop",
+          image: "shop.jpg",
           title: "Магазини і торгові приміщення",
           desc: "Підтримка чистоти в магазинах і точках обслуговування.",
         },
         {
           icon: "street",
+          image: "street.jpg",
           title: "Вулиці і прибудинкові території",
           desc: "Прибирання тротуарів, паркінгів і територій навколо будівель.",
         },
@@ -359,31 +371,37 @@ export default {
       items: [
         {
           icon: "home",
+          image: "apartments.jpg",
           title: "Apartments & houses",
           desc: "Comprehensive cleaning of apartments, houses and cottages — regular or one-time.",
         },
         {
           icon: "office",
+          image: "office.jpg",
           title: "Offices & companies",
           desc: "Keeping office and corporate spaces of any size clean.",
         },
         {
           icon: "warehouse",
+          image: "warehouse.jpg",
           title: "Warehouses & facilities",
           desc: "Cleaning large warehouse and industrial spaces.",
         },
         {
           icon: "medical",
+          image: "medical.jpg",
           title: "Medical facilities",
           desc: "Cleaning to elevated hygiene standards.",
         },
         {
           icon: "shop",
+          image: "shop.jpg",
           title: "Shops & retail spaces",
           desc: "Keeping shops and service premises clean.",
         },
         {
           icon: "street",
+          image: "street.jpg",
           title: "Streets & outdoor areas",
           desc: "Cleaning walkways, parking areas and grounds around buildings.",
         },
