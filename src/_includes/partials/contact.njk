@@ -24,9 +24,17 @@
       <label>
         {{ t.contact.form.service }}
         <select name="service">
+          <option value="">{{ t.contact.form.choose }}</option>
+          <optgroup label="{{ t.contact.form.cleaningGroup }}">
           {%- for item in t.services.items %}
-          <option>{{ item.title }}</option>
+            <option>{{ item.title }}</option>
           {%- endfor %}
+          </optgroup>
+          <optgroup label="{{ t.contact.form.staffingGroup }}">
+          {%- for item in t.staffing.formOptions %}
+            <option>{{ item }}</option>
+          {%- endfor %}
+          </optgroup>
         </select>
       </label>
       <label>

@@ -5,11 +5,11 @@
       {{ site.companyName }}
     </a>
 
-    <nav class="main-nav" data-main-nav aria-label="Main">
-      <a href="{{ site.alternates[lang] }}#services">{{ t.nav.services }}</a>
+    <nav id="main-nav" class="main-nav" data-main-nav aria-label="{{ t.nav.label }}">
+      <a href="{{ site.alternates[lang] }}#directions">{{ t.nav.directions }}</a>
+      <a href="{{ site.alternates[lang] }}#cleaning">{{ t.nav.cleaning }}</a>
+      <a href="{{ site.alternates[lang] }}#staffing">{{ t.nav.staffing }}</a>
       <a href="{{ site.alternates[lang] }}#why-us">{{ t.nav.whyUs }}</a>
-      <a href="{{ site.alternates[lang] }}#process">{{ t.nav.process }}</a>
-      <a href="{{ site.alternates[lang] }}#coverage">{{ t.nav.coverage }}</a>
       <a href="{{ site.alternates[lang] }}#contact">{{ t.nav.contact }}</a>
     </nav>
 
@@ -20,7 +20,7 @@
         {%- endfor %}
       </nav>
       <a class="btn btn-primary" href="{{ site.alternates[lang] }}#contact">{{ t.nav.cta }}</a>
-      <button type="button" class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="main-nav" aria-label="Menu">
+      <button type="button" class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="main-nav" aria-label="{{ t.nav.menuLabel }}">
         <span></span><span></span><span></span>
       </button>
     </div>

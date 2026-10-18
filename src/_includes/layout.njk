@@ -31,12 +31,17 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": "Organization",
     "name": "{{ site.legalName }}",
     "url": "https://{{ site.domain }}{{ site.alternates[lang] }}",
+    "description": "{{ t.meta.description }}",
     "telephone": "{{ site.contact.phoneDisplay }}",
     "email": "{{ site.contact.email }}",
-    "areaServed": "Warszawa"
+    "areaServed": ["Warszawa", "Polska"],
+    "makesOffer": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "{{ t.directions.cleaning.title }}" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "{{ t.directions.staffing.title }}" } }
+    ]
   }
   </script>
 </head>
@@ -45,7 +50,9 @@
   <main>
     {% include "partials/hero.njk" %}
     {% include "partials/stats.njk" %}
+    {% include "partials/directions.njk" %}
     {% include "partials/services.njk" %}
+    {% include "partials/staffing.njk" %}
     {% include "partials/why-us.njk" %}
     {% include "partials/process.njk" %}
     {% include "partials/coverage.njk" %}

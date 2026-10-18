@@ -1,6 +1,7 @@
 <footer class="site-footer">
   <div class="container footer-inner">
-    <p>&copy; {{ currentYear }} {{ site.legalName }}. {{ t.footer.rights }}</p>
+    <div class="footer-brand"><img src="/assets/img/logo-mark.svg" alt="" width="36" height="36"><div><strong>{{ site.companyName }}</strong><span>{{ t.footer.tagline }}</span></div></div>
+    <p>&copy; {{ currentYear }} {{ site.legalName }} {{ t.footer.rights }}</p>
     <a href="{{ site.alternates[lang] }}privacy/">{{ t.footer.privacy }}</a>
   </div>
   <div class="container">

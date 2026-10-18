@@ -1,16 +1,27 @@
 <section id="process" class="process">
   <div class="container">
+    <p class="section-kicker">{{ t.process.eyebrow }}</p>
     <h2>{{ t.process.title }}</h2>
-    <ol class="steps">
-      {%- for step in t.process.steps %}
-      <li class="step">
-        <span class="step-number">{{ loop.index }}</span>
-        <div>
-          <h3>{{ step.title }}</h3>
-          <p>{{ step.desc }}</p>
-        </div>
-      </li>
-      {%- endfor %}
-    </ol>
+    <p class="section-subtitle">{{ t.process.subtitle }}</p>
+    <div class="process-grid">
+      <article class="process-lane process-lane-cleaning">
+        <span class="process-label">{{ t.process.cleaning.label }}</span>
+        <h3>{{ t.process.cleaning.title }}</h3>
+        <ol class="steps">
+          {%- for step in t.process.cleaning.steps %}
+          <li class="step"><span class="step-number">{{ loop.index }}</span><div><h4>{{ step.title }}</h4><p>{{ step.desc }}</p></div></li>
+          {%- endfor %}
+        </ol>
+      </article>
+      <article class="process-lane process-lane-staffing">
+        <span class="process-label">{{ t.process.staffing.label }}</span>
+        <h3>{{ t.process.staffing.title }}</h3>
+        <ol class="steps">
+          {%- for step in t.process.staffing.steps %}
+          <li class="step"><span class="step-number">{{ loop.index }}</span><div><h4>{{ step.title }}</h4><p>{{ step.desc }}</p></div></li>
+          {%- endfor %}
+        </ol>
+      </article>
+    </div>
   </div>
 </section>

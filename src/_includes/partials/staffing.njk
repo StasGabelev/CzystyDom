@@ -1,0 +1,32 @@
+<section id="staffing" class="staffing-services">
+  <div class="container">
+    <div class="staffing-intro">
+      <div class="staffing-copy">
+        <p class="section-kicker">{{ t.staffing.eyebrow }}</p>
+        <h2>{{ t.staffing.title }}</h2>
+        <p class="staffing-lead">{{ t.staffing.subtitle }}</p>
+        <div class="role-tags" aria-label="{{ t.staffing.rolesLabel }}">
+          {%- for role in t.staffing.roles %}<span>{{ role }}</span>{%- endfor %}
+        </div>
+        <a class="btn btn-primary" href="#contact">{{ t.staffing.cta }}</a>
+      </div>
+      <figure class="staffing-photo">
+        <img src="/assets/img/photos/staffing-team.jpg" alt="{{ t.staffing.imageAlt }}" loading="lazy" width="1800" height="720">
+        <figcaption>{{ t.staffing.imageCaption }}</figcaption>
+      </figure>
+    </div>
+    <div class="staffing-grid">
+      {%- for item in t.staffing.items %}
+      <article class="staffing-card">
+        <span class="staffing-index">0{{ loop.index }}</span>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.desc }}</p>
+      </article>
+      {%- endfor %}
+    </div>
+    <div class="audience-grid">
+      <article><span>{{ t.staffing.employers.eyebrow }}</span><h3>{{ t.staffing.employers.title }}</h3><p>{{ t.staffing.employers.desc }}</p><a href="#contact">{{ t.staffing.employers.link }} →</a></article>
+      <article><span>{{ t.staffing.workers.eyebrow }}</span><h3>{{ t.staffing.workers.title }}</h3><p>{{ t.staffing.workers.desc }}</p><a href="#contact">{{ t.staffing.workers.link }} →</a></article>
+    </div>
+  </div>
+</section>
