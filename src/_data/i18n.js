@@ -2,7 +2,7 @@ export default {
   pl: {
     htmlLang: "pl",
     meta: {
-      title: "Czysty Dom – Profesjonalne sprzątanie w Warszawie",
+      title: "Fentro – Profesjonalne sprzątanie w Warszawie",
       description:
         "Sprzątanie mieszkań, biur, magazynów, placówek medycznych i przestrzeni handlowych w Warszawie. Szybka wycena, elastyczny grafik, gwarancja jakości.",
     },
@@ -130,10 +130,10 @@ export default {
     privacyPage: {
       title: "Polityka prywatności",
       intro:
-        "Niniejsza polityka prywatności wyjaśnia, w jaki sposób Czysty Dom sp. z o.o. przetwarza dane osobowe osób korzystających z formularza kontaktowego na stronie czystydomwaw.com, zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 (RODO).",
+        "Niniejsza polityka prywatności wyjaśnia, w jaki sposób Fentro sp. z o.o. przetwarza dane osobowe osób korzystających z formularza kontaktowego na stronie czystydomwaw.com, zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 (RODO).",
       controllerTitle: "Administrator danych",
       controller:
-        "Administratorem danych osobowych jest Czysty Dom sp. z o.o. z siedzibą w Warszawie. Pełne dane rejestrowe (adres siedziby, NIP, REGON) udostępniamy na żądanie pod adresem e-mail podanym w sekcji kontaktowej.",
+        "Administratorem danych osobowych jest Fentro sp. z o.o. z siedzibą w Warszawie. Pełne dane rejestrowe (adres siedziby, NIP, REGON) udostępniamy na żądanie pod adresem e-mail podanym w sekcji kontaktowej.",
       dataTitle: "Jakie dane przetwarzamy",
       data: "W związku z przesłaniem formularza kontaktowego przetwarzamy: imię i nazwisko, numer telefonu, adres e-mail (jeśli został podany) oraz treść wiadomości. Podanie danych jest dobrowolne, ale niezbędne do udzielenia odpowiedzi na zapytanie.",
       purposeTitle: "Cel i podstawa prawna przetwarzania",
@@ -170,7 +170,7 @@ export default {
   ua: {
     htmlLang: "uk",
     meta: {
-      title: "Czysty Dom – Професійне прибирання у Варшаві",
+      title: "Fentro – Професійне прибирання у Варшаві",
       description:
         "Прибирання квартир, офісів, складів, медичних закладів і торгових приміщень у Варшаві. Швидка оцінка вартості, гнучкий графік, гарантія якості.",
     },
@@ -298,10 +298,10 @@ export default {
     privacyPage: {
       title: "Політика конфіденційності",
       intro:
-        "Ця політика конфіденційності пояснює, як Czysty Dom sp. z o.o. обробляє персональні дані осіб, які користуються контактною формою на сайті czystydomwaw.com, відповідно до Регламенту (ЄС) 2016/679 (RODO/GDPR).",
+        "Ця політика конфіденційності пояснює, як Fentro sp. z o.o. обробляє персональні дані осіб, які користуються контактною формою на сайті czystydomwaw.com, відповідно до Регламенту (ЄС) 2016/679 (RODO/GDPR).",
       controllerTitle: "Адміністратор даних",
       controller:
-        "Адміністратором персональних даних є Czysty Dom sp. z o.o. з місцезнаходженням у Варшаві. Повні реєстраційні дані (юридична адреса, NIP, REGON) надаються на запит за email-адресою, вказаною в розділі контактів.",
+        "Адміністратором персональних даних є Fentro sp. z o.o. з місцезнаходженням у Варшаві. Повні реєстраційні дані (юридична адреса, NIP, REGON) надаються на запит за email-адресою, вказаною в розділі контактів.",
       dataTitle: "Які дані ми обробляємо",
       data: "У зв'язку з надсиланням контактної форми ми обробляємо: ім'я та прізвище, номер телефону, email (якщо вказано) та зміст повідомлення. Надання даних є добровільним, але необхідним для відповіді на запит.",
       purposeTitle: "Мета та правова підстава обробки",
@@ -338,7 +338,7 @@ export default {
   en: {
     htmlLang: "en",
     meta: {
-      title: "Czysty Dom – Professional Cleaning Services in Warsaw",
+      title: "Fentro – Professional Cleaning Services in Warsaw",
       description:
         "Cleaning services for apartments, offices, warehouses, medical facilities and retail spaces in Warsaw. Fast quotes, flexible scheduling, quality guaranteed.",
     },
@@ -466,10 +466,10 @@ export default {
     privacyPage: {
       title: "Privacy Policy",
       intro:
-        "This privacy policy explains how Czysty Dom sp. z o.o. processes the personal data of people who use the contact form on czystydomwaw.com, in accordance with Regulation (EU) 2016/679 (GDPR).",
+        "This privacy policy explains how Fentro sp. z o.o. processes the personal data of people who use the contact form on czystydomwaw.com, in accordance with Regulation (EU) 2016/679 (GDPR).",
       controllerTitle: "Data controller",
       controller:
-        "The data controller is Czysty Dom sp. z o.o., based in Warsaw. Full registration details (registered address, NIP, REGON) are available on request via the email address listed in the contact section.",
+        "The data controller is Fentro sp. z o.o., based in Warsaw. Full registration details (registered address, NIP, REGON) are available on request via the email address listed in the contact section.",
       dataTitle: "What data we process",
       data: "When you submit the contact form, we process: your full name, phone number, email address (if provided), and message content. Providing this data is voluntary but necessary for us to respond to your inquiry.",
       purposeTitle: "Purpose and legal basis for processing",
