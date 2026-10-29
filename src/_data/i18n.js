@@ -205,7 +205,7 @@ export default {
     privacyPage: {
       title: "Polityka prywatności",
       intro:
-        "Niniejsza polityka prywatności wyjaśnia, w jaki sposób Fentro sp. z o.o. przetwarza dane osobowe osób korzystających z formularza kontaktowego na stronie czystydomwaw.com, zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 (RODO).",
+        "Niniejsza polityka prywatności wyjaśnia, w jaki sposób Fentro sp. z o.o. przetwarza dane osobowe osób korzystających z formularza kontaktowego na stronie fentrowaw.pl, zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 (RODO).",
       controllerTitle: "Administrator danych",
       controller:
         "Administratorem danych osobowych jest Fentro sp. z o.o. z siedzibą w Warszawie. Pełne dane rejestrowe (adres siedziby, NIP, REGON) udostępniamy na żądanie pod adresem e-mail podanym w sekcji kontaktowej.",
@@ -448,7 +448,7 @@ export default {
     privacyPage: {
       title: "Політика конфіденційності",
       intro:
-        "Ця політика конфіденційності пояснює, як Fentro sp. z o.o. обробляє персональні дані осіб, які користуються контактною формою на сайті czystydomwaw.com, відповідно до Регламенту (ЄС) 2016/679 (RODO/GDPR).",
+        "Ця політика конфіденційності пояснює, як Fentro sp. z o.o. обробляє персональні дані осіб, які користуються контактною формою на сайті fentrowaw.pl, відповідно до Регламенту (ЄС) 2016/679 (RODO/GDPR).",
       controllerTitle: "Адміністратор даних",
       controller:
         "Адміністратором персональних даних є Fentro sp. z o.o. з місцезнаходженням у Варшаві. Повні реєстраційні дані (юридична адреса, NIP, REGON) надаються на запит за email-адресою, вказаною в розділі контактів.",
@@ -691,7 +691,7 @@ export default {
     privacyPage: {
       title: "Privacy Policy",
       intro:
-        "This privacy policy explains how Fentro sp. z o.o. processes the personal data of people who use the contact form on czystydomwaw.com, in accordance with Regulation (EU) 2016/679 (GDPR).",
+        "This privacy policy explains how Fentro sp. z o.o. processes the personal data of people who use the contact form on fentrowaw.pl, in accordance with Regulation (EU) 2016/679 (GDPR).",
       controllerTitle: "Data controller",
       controller:
         "The data controller is Fentro sp. z o.o., based in Warsaw. Full registration details (registered address, NIP, REGON) are available on request via the email address listed in the contact section.",
